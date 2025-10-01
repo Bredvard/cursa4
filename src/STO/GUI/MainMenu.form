@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="STO.GUI.MainMenu">
+  <grid id="27dc6" binding="cardPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="5" y="20" width="526" height="417"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="43630" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <card name="Card1"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e9d44" class="javax.swing.JButton" binding="scheduleButton">
+            <constraints/>
+            <properties>
+              <text value="Розклад"/>
+            </properties>
+          </component>
+          <hspacer id="650fa">
+            <constraints/>
+          </hspacer>
+          <component id="4a944" class="javax.swing.JButton" binding="commissionButton">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <text value="Створити замовлення"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <hspacer id="effd8">
+            <constraints/>
+          </hspacer>
+          <component id="f8dc9" class="javax.swing.JButton" binding="deliverybutton">
+            <constraints/>
+            <properties>
+              <text value="Видача"/>
+            </properties>
+          </component>
+          <hspacer id="595f7">
+            <constraints/>
+          </hspacer>
+          <component id="5eb3b" class="javax.swing.JButton" binding="materialsbutton">
+            <constraints/>
+            <properties>
+              <text value="Матеріали"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
